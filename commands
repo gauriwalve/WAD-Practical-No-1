@@ -1,0 +1,51 @@
+itcl2-33@itcl233-ThinkCentre-M800:~/Desktop/Gauri Walve$ echo "# WAD-Practical-No-1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/gauriwalve/WAD-Practical-No-1.git
+git push -u origin main
+Reinitialized existing Git repository in /home/itcl2-33/Desktop/Gauri Walve/.git/
+[main e4b2253] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+error: remote origin already exists.
+^C
+itcl2-33@itcl233-ThinkCentre-M800:~/Desktop/Gauri Walve$ git remote remove origin 
+itcl2-33@itcl233-ThinkCentre-M800:~/Desktop/Gauri Walve$ echo "# WAD-Practical-No-1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/gauriwalve/WAD-Practical-No-1.git
+git push -u origin main
+Reinitialized existing Git repository in /home/itcl2-33/Desktop/Gauri Walve/.git/
+[main 926718c] first commit
+ 1 file changed, 1 insertion(+)
+Enumerating objects: 13, done.
+Counting objects: 100% (13/13), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (13/13), 31.98 KiB | 3.55 MiB/s, done.
+Total 13 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/gauriwalve/WAD-Practical-No-1.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+itcl2-33@itcl233-ThinkCentre-M800:~/Desktop/Gauri Walve$ git config user.email "gauriwalve28@gmail.com"
+itcl2-33@itcl233-ThinkCentre-M800:~/Desktop/Gauri Walve$ git config user.name "gauriwalve"
+itcl2-33@itcl233-ThinkCentre-M800:~/Desktop/Gauri Walve$ git add .
+itcl2-33@itcl233-ThinkCentre-M800:~/Desktop/Gauri Walve$ git commit -m "second commit"
+[main 1779573] second commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Assignment_1A/html/new.html
+itcl2-33@itcl233-ThinkCentre-M800:~/Desktop/Gauri Walve$ git push -u origin main
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 425 bytes | 425.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/gauriwalve/WAD-Practical-No-1.git
+   926718c..1779573  main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+itcl2-33@itcl233-ThinkCentre-M800:~/Desktop/Gauri Walve$ 
